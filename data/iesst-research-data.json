@@ -1,0 +1,342 @@
+{
+  "lab": {
+    "name": "Intelligent Energy Systems & Sustainable Technologies Lab",
+    "short": "IESST Lab",
+    "parent": "International Council for Research & Innovation in Science, Technology & Engineering (ICRI-STE)",
+    "tagline": "Intelligent Energy. Sustainable Future.",
+    "theme": "AI, Renewable Energy, Smart Grids, Energy Storage, Digital Twins & Intelligent Control",
+    "proposition": "Develop AI-enabled intelligent energy systems that can predict renewable generation and energy demand, optimise storage and power flows, and autonomously manage renewable-powered microgrids for a more efficient, reliable, and sustainable energy future."
+  },
+  "project": "AI-Enabled Intelligent Renewable Energy and Smart Microgrid Systems for Sustainable Energy Management",
+  "loop": [
+    "Sense",
+    "Predict",
+    "Optimise",
+    "Control",
+    "Learn",
+    "Adapt"
+  ],
+  "layers": [
+    [
+      "Renewable Energy Generation",
+      "Solar PV, wind energy and hybrid renewable generation."
+    ],
+    [
+      "Energy Storage",
+      "Battery energy storage, battery-management system and charging/discharging controller."
+    ],
+    [
+      "IoT & Smart Sensing",
+      "Voltage, current, power, generation, battery status, temperature, demand and environmental conditions."
+    ],
+    [
+      "Edge AI",
+      "Real-time monitoring, anomaly detection, rapid prediction, low-latency control and reduced communication needs."
+    ],
+    [
+      "AI Intelligence",
+      "Renewable and demand forecasting, battery prediction, anomaly detection, optimisation and intelligent control."
+    ],
+    [
+      "Energy Digital Twin",
+      "A continuously updated computational representation of the physical energy system."
+    ],
+    [
+      "Intelligent Energy Management",
+      "Optimal generation utilisation, battery charging/discharging, grid interaction, demand response and energy allocation."
+    ]
+  ],
+  "objectives": [
+    [
+      "Renewable Energy Forecasting",
+      "AI/ML models for solar PV generation, wind generation, renewable-energy availability and short-term energy production."
+    ],
+    [
+      "Energy Demand Forecasting",
+      "Predictive models using historical consumption, weather, time, seasonal patterns and occupancy/usage information where available."
+    ],
+    [
+      "Intelligent Battery Management",
+      "AI-driven state-of-charge and state-of-health estimation, charging/discharging optimisation, degradation-aware scheduling and storage utilisation."
+    ],
+    [
+      "Intelligent Microgrid Optimisation",
+      "Algorithms coordinating solar, wind, battery, grid and loads under operational constraints and energy costs."
+    ],
+    [
+      "AI-Based Intelligent Control",
+      "Reinforcement learning and other adaptive control approaches for real-time energy management."
+    ],
+    [
+      "Energy Digital Twin",
+      "A computational twin for monitoring, simulation, prediction, optimisation, scenario analysis and decision support."
+    ],
+    [
+      "Industrial Demonstration",
+      "A prototype energy-management platform evaluated under realistic operating scenarios."
+    ]
+  ],
+  "work_packages": [
+    [
+      "WP1",
+      "Industrial Requirements & System Design",
+      "System specification"
+    ],
+    [
+      "WP2",
+      "Renewable Energy Modelling",
+      "PV/wind models"
+    ],
+    [
+      "WP3",
+      "Energy Demand Forecasting",
+      "Demand prediction models"
+    ],
+    [
+      "WP4",
+      "AI Renewable Forecasting",
+      "AI forecasting platform"
+    ],
+    [
+      "WP5",
+      "Battery Intelligence",
+      "AI-based BMS algorithms"
+    ],
+    [
+      "WP6",
+      "Microgrid Optimisation",
+      "Energy optimisation engine"
+    ],
+    [
+      "WP7",
+      "Intelligent Control",
+      "Adaptive control system"
+    ],
+    [
+      "WP8",
+      "Energy Digital Twin",
+      "Digital-twin platform"
+    ],
+    [
+      "WP9",
+      "Prototype Integration",
+      "Intelligent energy platform"
+    ],
+    [
+      "WP10",
+      "Validation & Demonstration",
+      "Industrial demonstration"
+    ],
+    [
+      "WP11",
+      "Technology Translation",
+      "Deployment/commercialisation plan"
+    ]
+  ],
+  "outputs": [
+    "AI Renewable-Energy Forecasting Engine",
+    "Intelligent Battery Management System",
+    "AI Energy Demand Forecasting Module",
+    "Smart Microgrid Optimisation Engine",
+    "Reinforcement Learning Energy Controller",
+    "Energy Digital Twin",
+    "Edge-AI Energy Monitoring System",
+    "Real-Time Energy Management Dashboard",
+    "Integrated Intelligent Microgrid Prototype"
+  ],
+  "kpis": {
+    "Energy": [
+      "Renewable-energy utilisation",
+      "Energy efficiency",
+      "Energy losses",
+      "Battery utilisation",
+      "Peak-demand reduction"
+    ],
+    "AI": [
+      "Forecasting accuracy",
+      "Prediction error",
+      "Fault-detection accuracy",
+      "False-alarm rate"
+    ],
+    "Computing": [
+      "AI inference latency",
+      "Edge-computing performance",
+      "Communication requirements",
+      "Computational efficiency"
+    ],
+    "Battery": [
+      "SoC estimation accuracy",
+      "SoH estimation accuracy",
+      "Degradation prediction",
+      "Charging/discharging efficiency"
+    ],
+    "Microgrid": [
+      "Stability",
+      "Reliability",
+      "Renewable penetration",
+      "Grid dependency",
+      "Energy-management performance"
+    ],
+    "Industrial": [
+      "Operating cost",
+      "Maintenance requirements",
+      "Scalability",
+      "Deployment feasibility",
+      "Return-on-investment potential"
+    ]
+  },
+  "applications": [
+    [
+      "Solar Farms",
+      "AI-based generation forecasting, predictive maintenance and optimisation."
+    ],
+    [
+      "Industrial Facilities",
+      "Energy-demand prediction and intelligent energy management."
+    ],
+    [
+      "Smart Buildings",
+      "AI-controlled energy consumption and demand response."
+    ],
+    [
+      "Remote Communities",
+      "Hybrid renewable-energy and battery microgrids."
+    ],
+    [
+      "Agricultural Systems",
+      "Solar-powered irrigation and intelligent energy management."
+    ],
+    [
+      "EV Charging",
+      "AI-based charging optimisation and battery-grid coordination."
+    ],
+    [
+      "Smart Cities",
+      "Distributed renewable energy, storage and demand management."
+    ]
+  ],
+  "risks": [
+    [
+      "Renewable variability",
+      "Solar and wind generation are uncertain.",
+      "AI forecasting and uncertainty-aware optimisation."
+    ],
+    [
+      "Battery degradation",
+      "Excessive cycling can reduce battery life.",
+      "Degradation-aware energy-management algorithms."
+    ],
+    [
+      "AI reliability",
+      "Incorrect predictions could lead to poor control decisions.",
+      "Hybrid AI + physics-based modelling, uncertainty estimation and safety constraints."
+    ],
+    [
+      "Computational constraints",
+      "Complex AI models may be difficult to deploy at the edge.",
+      "Model compression, lightweight architectures and edge optimisation."
+    ],
+    [
+      "Industrial deployment",
+      "Real energy systems have safety and operational constraints.",
+      "Progressive validation: simulation, hardware-in-the-loop, controlled prototype, field demonstration."
+    ]
+  ],
+  "phases": [
+    [
+      "Industrial Requirements",
+      "Target application, system configuration, constraints, data and performance requirements, industrial KPIs."
+    ],
+    [
+      "Mathematical & Computational Modelling",
+      "Models for renewable generation, demand, batteries, microgrid operation and energy flows."
+    ],
+    [
+      "AI Development",
+      "Forecasting, anomaly-detection, battery-intelligence, optimisation and control algorithms."
+    ],
+    [
+      "Digital Twin",
+      "The computational representation of the energy system."
+    ],
+    [
+      "Prototype Development",
+      "Sensors, IoT, edge computing, AI, energy management and visualisation."
+    ],
+    [
+      "Validation",
+      "Simulations and controlled experiments."
+    ],
+    [
+      "Industrial Demonstration",
+      "Evaluation under realistic operating conditions."
+    ]
+  ],
+  "roadmap": [
+    [
+      "Year 1",
+      "Modelling & AI",
+      [
+        "Energy-system modelling",
+        "Renewable-energy datasets",
+        "PV/wind forecasting",
+        "Demand forecasting",
+        "Battery modelling",
+        "Initial AI models"
+      ]
+    ],
+    [
+      "Year 2",
+      "Intelligent Energy Platform",
+      [
+        "Energy digital twin",
+        "Reinforcement learning",
+        "Microgrid optimisation",
+        "Edge AI",
+        "Intelligent battery management",
+        "Prototype development"
+      ]
+    ],
+    [
+      "Year 3",
+      "Demonstration & Industrial Translation",
+      [
+        "Integrated prototype",
+        "Hardware-in-the-loop testing",
+        "Field-oriented demonstration",
+        "Performance evaluation",
+        "Industrial partnership",
+        "IP and technology-transfer assessment",
+        "Commercialisation strategy"
+      ]
+    ]
+  ],
+  "problems": [
+    "Increasing integration of intermittent renewable energy",
+    "Uncertainty in solar and wind generation",
+    "Rapidly changing electricity demand",
+    "Limited and costly energy-storage capacity",
+    "Energy losses and inefficient power management",
+    "Increasing complexity of distributed energy resources",
+    "Need for reliable microgrid operation",
+    "Difficulty predicting renewable generation accurately",
+    "Need for intelligent demand-response mechanisms",
+    "Increasing requirements for sustainable and low-carbon energy systems"
+  ],
+  "sustainability": [
+    "Increase renewable-energy utilisation",
+    "Improve energy efficiency",
+    "Optimise energy storage",
+    "Reduce avoidable energy losses",
+    "Support distributed renewable generation",
+    "Improve energy-system resilience",
+    "Enable data-driven sustainable energy management"
+  ],
+  "ip": [
+    "AI energy-optimisation algorithms",
+    "Battery-management algorithms",
+    "Digital-twin architectures",
+    "Adaptive energy-control systems",
+    "Integrated edge-AI energy-management platforms"
+  ]
+}
